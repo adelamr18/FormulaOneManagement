@@ -1,0 +1,58 @@
+# Ignore NuGet packages
+*.nuget.props
+*.lock.json
+/project.lock.json
+/packages/
+*.nupkg
+*.paket.restore.log
+*.dotnet-*
+!*.DotnetPublish.props
+
+# Ignore Visual Studio files
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln.ide-shadows
+*.sln.ide-workspace
+.vs/
+/bin/
+/obj/
+
+# Ignore JetBrains Rider files
+.idea/
+
+# Ignore build output
+/bin/
+/obj/
+
+# Ignore debug folders
+/Client/bin/Debug/
+/Server/bin/Debug/
+/Shared/bin/Debug/
+/Shared/obj/Debug/
+
+# Ignore .NET Core build artifacts
+/Client/bin/
+/Client/obj/
+/Server/bin/
+/Server/obj/
+/Shared/bin/
+/Shared/obj/
+
+# Ignore generated files
+/Client/wwwroot/dist/
+/Server/wwwroot/dist/
+
+# Ignore npm modules
+/Client/node_modules/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Visual Studio Code workspace settings
+.vscode/settings.json
+
+# Ignore Blazor WebAssembly publish output
+/Client/bin/Release/net6.0/publish/wwwroot/dist/
